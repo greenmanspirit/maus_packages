@@ -1,0 +1,4 @@
+name = git
+version = 1.5.4
+commit-object = c3c135291a62a01f7fd385f46cde34091767259b
+repo = git://git.kernel.org/pub/scm/git/git.git
