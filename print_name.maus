@@ -1,10 +1,11 @@
+#this is a comment
 name = print_name
 version = n/a
 commit-object = 6bed306619ae173fb4855dfd993d303b30c18271
 repo = git://github.com/greenmanspirit/print_name.git
 patch-repo = git://github.com/brianmadden/print_name.git
 install-steps = 2
-make
-mv print_name ../foo
+os.system("make")
+os.system("mv print_name /bin")
 uninstall-steps = 1
-rm foo
+os.system("rm /bin/print_name")
